@@ -40,6 +40,33 @@ refined segmentation outputs characterized by enhanced global semantic consisten
 
 To enhance segmentation performance, image data was resampled, intensity values clipped, and Min-Max normalization was applied. Additionally, identical data augmentation strategies were employed for all networks to maintain fairness across experiments„ which included random rotation, random shifting, and random scaling of the data. For all training procedures, the DiceCE loss function was adopted, while AdamW served as the optimizer. Image sequence data was randomly cropped into 96×96×96 patches for training, with a batch size of 1, and 320,000 steps of iterative training were carried out. Experiments were conducted on two NVIDIA GeForce RTX 3090 servers, with the environment consisting of Python 3.10, Pytorch 2.1.0, and CUDA 11.8. All experiments were executed under the same hardware and environmental conditions.
 
+## Segmentation Performance Comparisons
+
+<p align="center">
+  <img src="images/result.png" alt="result," style="width:60%;"/>
+</p>
+
+
+## Model Complexity Comparison
+
+<p align="center">
+  <img src="images/params+flops.png" alt="result," style="width:50%;"/>
+</p>
+
+<p align="center">
+  <img src="images/figure_params+flops.png" alt="result," style="width:80%;"/>
+</p>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
