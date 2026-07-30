@@ -1,4 +1,4 @@
-# CADiST: Dual-Stage Inter-Slice Fusion and Spectral Modulation Network for 3D Medical Image Segmentation
+# CADiST: Cross-Slice Fusion and Spectral Modulation for 3D Medical Image Segmentation
 
 ## Detailed network structure of the CADiST
 <p align="center">
